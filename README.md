@@ -17,18 +17,22 @@ from pychancalculator.calculator import Calculator
 cal = Calculator()
 
 # For the Addition
-cal.add(2,3)
+result = cal.add(2,3)
+print(result)
 # return 5 
 
 # For the Subtraction
-cal.dif(5,3)
+result = cal.dif(5,3)
+print(result)
 # return 2
 
 # For the division
-cal.div(6,3)
+result = cal.div(6,3)
+print(result)
 # return 2 
 
 # For the multiplication
-cal.multi(8,2)
+result = cal.multi(8,2)
+print(result)
 # return 4 
 ```
