@@ -1,12 +1,12 @@
 # Py-Chan-Calculator
 This is a simple calculator package
 
-### How to install the package
+### How to install
 ```shell
 pip install pychancalculator
 ```
 
-### How to import the package
+### How to import
 ```pycon
 from pychancalculator.calculator import Calculator
 ```
