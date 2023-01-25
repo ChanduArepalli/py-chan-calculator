@@ -2,11 +2,12 @@ from setuptools import setup
 # read the contents of your README file
 from pathlib import Path
 this_directory = Path(__file__).parent
-long_description = (this_directory / "README.md").read_text()
+read_me_file = (this_directory / "README.md")
+long_description = read_me_file.read_text() if read_me_file.exists() else None
 
 setup(
     name='py-chan-calculator',
-    version='0.0.2',
+    version='0.0.3',
     description='This is a simple calculator package',
     long_description=long_description,
     long_description_content_type='text/markdown',
