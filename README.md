@@ -1,4 +1,4 @@
-# Py-Chan-Calculator
+# Py-Chan-Calculator ![PyPI](https://img.shields.io/pypi/v/py-chan-calculator) 
 This is a simple calculator package
 
 ### How to install
