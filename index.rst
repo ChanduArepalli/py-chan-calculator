@@ -1,1 +1,1 @@
-# Welcome to Py-Chan-Calculator documentation
+Welcome to Py-Chan-Calculator documentation
